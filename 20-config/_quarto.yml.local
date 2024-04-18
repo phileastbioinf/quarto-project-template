@@ -1,0 +1,8 @@
+# Local Config
+# Sometimes its useful to define local changes to project configuration that are not checked in to version control. You can do this by creating a _quarto.yml.local config file. For example, here we specify that we want to use the execution cache when running locally:
+
+# _quarto.yml.local
+# execute:
+#   cache: true
+
+# Note that Quarto automatically writes an entry to .gitignore to ensure that .local files are not committed (note that environment variables can also be defined in a similar .local file).

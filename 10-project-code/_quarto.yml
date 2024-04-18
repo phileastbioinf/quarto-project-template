@@ -1,0 +1,39 @@
+project:
+  type: book
+  output-dir: outputs
+#  pre-render: prepare.py
+#  post-render: 
+#    - fix-links.py
+
+book:
+  title: "Sarek Analysis"
+  author: "Phil East"
+  date: "14/12/2023"
+  chapters:
+    - index.qmd
+    - qc.qmd
+    - somatic_snvs.qmd
+    - germline_snvs.qmd
+    - cnv.qmd
+
+#profile:
+#  group: 
+#    - [profile]
+
+# bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    code-fold: true
+    code-summary: "Show the code"
+    code-tools: true
+    code-copy: true
+    tbl-cap-location: bottom
+    toc: true
+    toc-depth: 4
+    toc-expand: true
+
+#metadata-files:
+#  - _website.yml
+
